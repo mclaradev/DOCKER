@@ -6,3 +6,5 @@ const router = express.Router()
 router.post('/cadastro', creatUser)
 router.get('/todos', getAllUSers)
 router.delete('/deletar', deleteUser)
+
+export default router
